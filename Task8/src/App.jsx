@@ -5,7 +5,7 @@ import Product from './components/Product '
 function App() {
   return (
     <>
-    <Person person={{name:'yash', age:20}}/>
+    <Person name={'yash'} age={20}/>
     <Product product={{name:"hair oil" ,price:500}}/>
     </>
   )
