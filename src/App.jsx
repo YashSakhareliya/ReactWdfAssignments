@@ -1,4 +1,7 @@
+import Footer from './components/Footer'
 import Greet from './components/Greet'
+import Header from './components/Header'
+import MainComponent from './components/MainComponent'
 
 
 function App() {
@@ -6,7 +9,9 @@ function App() {
 
   return (
     <>
-     <Greet />
+     <Header />
+     <MainComponent />
+     <Footer />
      </>
   )
 }
